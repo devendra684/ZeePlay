@@ -1,3 +1,6 @@
+// json-server --watch db.json
+
+
 const PORT = process.env.PORT || 3000;
 const path = require("path");
 const jsonServer = require("json-server");
