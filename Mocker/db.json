@@ -1,8 +1,21 @@
 {
     "dev": [
-      { "id": 1 }
+          { 
+            "id": 1 
+          }
     ],
     "singh": [
-        { "id": 2, "id1": 3}
-      ]
-  }
+          { 
+            "id": 2, 
+            "length": 5
+          }
+    ],
+    "products": [
+          { 
+            "id": 1,
+            "name": "video",
+            "type": "music",
+            "other": "trending/new/music/entertainment"
+          }
+    ]
+}
