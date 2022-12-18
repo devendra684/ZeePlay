@@ -4,36 +4,36 @@ import Navbar from "../Components/Navbar";
 import Footer from "./Footer";
 const music = [
   {
-    video: "https://youtu.be/P8qF8C8PeZ8",
+    video: "https://www.youtube.com/embed/P8qF8C8PeZ8",
     title: "Mett | Zee TV Premiere",
   },
   {
-    video: "https://youtu.be/QVaLERuq19Y",
+    video: "https://www.youtube.com/embed/QVaLERuq19Y",
     title: "Kundali Bhagya | Zee TV Premiere",
   },
   {
-    video: "https://youtu.be/pnfjSj99dpU",
+    video: "https://www.youtube.com/embed/pnfjSj99dpU",
     title: "राधाकृष्ण | RadhaKrishn | Zee TV Premiere",
   },
   {
-    video: "https://youtu.be/GRspb2J-55M",
+    video: "https://www.youtube.com/embed/GRspb2J-55M",
     title: "Rabb Se Hai Dua | Zee TV Premiere",
   },
   {
     video: "https://www.youtube.com/embed/pnfjSj99dpU",
-    title: "Mett | Zee TV Premiere",
+    title: "Pyar ka Pahla Naam Radha Mohan | Zee TV Premiere",
   },
   {
     video: "https://www.youtube.com/embed/GRspb2J-55M",
-    title: "Mett | Zee TV Premiere",
+    title: "Bhagya Lakshmi | Zee TV Premiere",
   },
   {
     video: "https://www.youtube.com/embed/H6tFxphsZQs",
-    title: "Mett | Zee TV Premiere",
+    title: "Sa Re Ga Ma Pa Lil Champs | Zee TV Premiere",
   },
   {
     video: "https://www.youtube.com/embed/vg0ZfeszGrU",
-    title: "Mett | Zee TV Premiere",
+    title: "Rab Se Hai Dua | Zee TV Premiere",
   },
   {
     video: "https://www.youtube.com/embed/tpFljbJxZiw",
@@ -74,55 +74,7 @@ const music = [
   {
     video: "https://www.youtube.com/embed/OulN7vTDq1I",
     title: "Mett | Zee TV Premiere",
-  },
-  {
-    video: "https://www.youtube.com/embed/bzW9fmwcmG4",
-    title: "Mett | Zee TV Premiere",
-  },
-  {
-    video: "https://www.youtube.com/embed/q1wK0r51ARs",
-    title: "Mett | Zee TV Premiere",
-  },
-  {
-    video: "https://www.youtube.com/embed/NrXdauEv9HY",
-    title: "Mett | Zee TV Premiere",
-  },
-  {
-    video: "https://www.youtube.com/embed/Wr2NN4VQ1nI",
-    title: "Mett | Zee TV Premiere",
-  },
-  {
-    video: "https://www.youtube.com/embed/TwFBtV13KQQ",
-    title: "Mett | Zee TV Premiere",
-  },
-  {
-    video: "https://www.youtube.com/embed/EpJk_dSpjVM",
-    title: "Mett | Zee TV Premiere",
-  },
-  {
-    video: "https://www.youtube.com/embed/-j0dlcfekqw",
-    title: "Mett | Zee TV Premiere",
-  },
-  {
-    video: "https://www.youtube.com/embed/JOX09U8noOE",
-    title: "Mett | Zee TV Premiere",
-  },
-  {
-    video: "https://www.youtube.com/embed/JYodEWUdIso",
-    title: "Mett | Zee TV Premiere",
-  },
-  {
-    video: "https://www.youtube.com/embed/A66TYFdz8YA",
-    title: "Mett | Zee TV Premiere",
-  },
-  {
-    video: "https://www.youtube.com/embed/PWaPCqeCfeY",
-    title: "Mett | Zee TV Premiere",
-  },
-  {
-    video: "https://www.youtube.com/embed/BJahIa255qc",
-    title: "Mett | Zee TV Premiere",
-  },
+  }
 ];
 
 const TVShows = () => {
