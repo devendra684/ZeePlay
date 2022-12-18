@@ -2,10 +2,10 @@ import { CloseIcon } from "@chakra-ui/icons";
 import { Box, Button, Center, Flex, Input, useToast } from "@chakra-ui/react";
 import React,{useState} from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import styles from "../Styles/payment.module.css";
+import styles from "../Styles/Payment.css";
 import { useContext } from "react";
-import { AuthContext } from "../Context/AuthContext/AuthContext";
-import {AlertSuccess} from "../Context/AuthContext/Action"
+import { AuthContext } from "../Context/AuthContext";
+import {AlertSuccess} from "../Context/Action"
 
 const Payment = () => {
   const {dispatch} = useContext(AuthContext);

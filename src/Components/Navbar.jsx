@@ -1,17 +1,21 @@
 import { Box, Flex } from "@chakra-ui/react";
 import React from "react";
-import DrawerApp from "./DrawerApp";
-import Logo from "./Logo";
-import MenuLink from "./MenuLink";
-import "../../Styles/App.css"
+import NavLoginSec from "./NavLoginSec";
+import NavLogoSec from "./NavLogoSec";
+import NavSearchSec from "./NavSearchSec";
+import "../Styles/App.css"
 
 export default function Navbar() {
   return (
-    <Box className="Navbar" p={3} bg="#0F0617" margin="auto">
+    <Box className="Navbar" 
+    bg="#0F0617" 
+    // margin="auto"
+    height= "73px"
+    >
       <Flex justify="space-between">
-        <Logo></Logo>
-        <MenuLink></MenuLink>
-        <DrawerApp></DrawerApp>
+        <NavLogoSec></NavLogoSec>
+        <NavSearchSec></NavSearchSec>
+        <NavLoginSec></NavLoginSec>
       </Flex>
     </Box>
   );

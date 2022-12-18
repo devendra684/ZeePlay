@@ -22,7 +22,7 @@ import {
   useDisclosure
 } from "@chakra-ui/react";
 
-export default function DrawerApp() {
+export default function NavLoginSec() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
   return (
@@ -45,8 +45,11 @@ export default function DrawerApp() {
           color={"white"}
           finalFocusRef={btnRef}
         >
-          <DrawerOverlay w={20}/>
-          <DrawerContent bg="#0f0617">
+          <DrawerOverlay w={20} />
+          <DrawerContent bg="#0f0617" 
+          height= "500px" 
+          // border="1px solid red"
+          >
             <DrawerCloseButton />
             <DrawerHeader></DrawerHeader>
 
@@ -65,10 +68,11 @@ export default function DrawerApp() {
                       <AccordionIcon />
                     </AccordionButton>
                   </h2>
-                  <AccordionPanel pb={4}>
+                  <AccordionPanel pb={4}
+                  >
                     <Link href="/movies">TV Shows</Link>
                     <br />
-                    <Link href="/movies">Movies</Link>
+                    <Link href="/Movies">Movies</Link>
                     <br />
                     <Link href="/">Web Series</Link>
                     <br />
@@ -82,7 +86,7 @@ export default function DrawerApp() {
                     <br />
                     <Link href="/">Music</Link>
                     <br />
-                    <Link href="/">ZEEPLEX</Link>
+                    <Link href="/">Rent</Link>
                     <br />
                     <Link href="/">Play</Link>
                     <br />
@@ -157,7 +161,11 @@ export default function DrawerApp() {
             </DrawerBody>
             <hr />
             <DrawerFooter textAlign="center">
-              <Text color={"white"}>Version 2.51.65</Text>
+              <Text color={"grey"} 
+              textAlign="center" 
+              margin="auto"
+              
+              >Version 2.52.66</Text>
             </DrawerFooter>
           </DrawerContent>
         </Drawer>

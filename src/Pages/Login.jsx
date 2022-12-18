@@ -9,7 +9,7 @@ import {
   Text,
   useToast
 } from "@chakra-ui/react";
-import { AuthContext } from "../Context/AuthContext/AuthContext";
+import { AuthContext } from "../Context/AuthContext";
 import { FaApple } from "react-icons/fa";
 import { AiFillGoogleCircle } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
@@ -18,13 +18,18 @@ import { CloseIcon } from "@chakra-ui/icons";
 import { NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { AlertSuccess, AuthSuccess, LoginFailure, LoginSuccess } from "../Context/AuthContext/Action";
+import {
+  // AlertSuccess,
+  AuthSuccess,
+  LoginFailure,
+  LoginSuccess
+} from "../Context/Action";
 export default function Login() {
   const toast = useToast();
   const { dispatch } = useContext(AuthContext);
   const [loginData, setLoginData] = useState({
     email: "",
-    password: "",
+    password: ""
   });
 
   const navigate = useNavigate();
@@ -33,7 +38,7 @@ export default function Login() {
 
     setLoginData({
       ...loginData,
-      [name]: value,
+      [name]: value
     });
   };
 
@@ -41,7 +46,7 @@ export default function Login() {
     axios({
       method: "POST",
       url: "https://reqres.in/api/register",
-      data: loginData,
+      data: loginData
     })
       .then((res) => {
         console.log(res.data.token);
@@ -50,7 +55,7 @@ export default function Login() {
 
         setLoginData({
           email: "",
-          password: "",
+          password: ""
         });
         toast({
           title: "Welcome Back Buddy !",
@@ -58,7 +63,7 @@ export default function Login() {
           status: "success",
           duration: 4000,
           position: ["top"],
-          isClosable: true,
+          isClosable: true
         });
         navigate("/");
       })
@@ -71,7 +76,7 @@ export default function Login() {
           status: "error",
           duration: 4000,
           position: ["top"],
-          isClosable: true,
+          isClosable: true
         });
       })
       .finally(() => {
