@@ -182,7 +182,7 @@ export default function Login() {
         <Box mt="2rem">
           <Flex justify="center">
             <Text fontSize="13px" color="white">
-              New to ZEE5?
+              New to ZEE Play?
             </Text>
             <Text fontSize="13px" color="#A785FF">
               <NavLink to="/register">Register</NavLink>

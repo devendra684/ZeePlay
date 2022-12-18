@@ -3,9 +3,9 @@ import {Routes, Route} from "react-router-dom"
 import Home from './Home'
 import Login from './Login'
 import Movies from './Movies'
-// import Music from './Music'
+import TVShows from "./TVShows";
 import Payment from './Payment'
-// import PremiumPlan from './PremiumPlan'
+import Buy from './Buy'
 import Register from './Register'
 
 export default function AllRoutes() {
@@ -13,10 +13,10 @@ export default function AllRoutes() {
     <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/login" element={<Login />}></Route>
-        {/* <Route path="/music" element={<Music/>}></Route> */}
+        <Route path="/TVShows" element={<TVShows />}></Route>
         <Route path="/movies" element={<Movies />}></Route>
         <Route path="/register" element={<Register />}></Route>
-        {/* <Route path="/premiumplan" element={<PremiumPlan />}></Route> */}
+        <Route path="/Buy" element={<Buy />}></Route>
         <Route path="/payment" element={<Payment />}></Route>
     </Routes>
   )

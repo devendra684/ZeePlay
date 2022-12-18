@@ -10,36 +10,106 @@ const Footer2 = () => {
     <div style={{ marginTop: "30px", backgroundColor: "#0f0617" }}>
       <hr />
       {/*Table section for new release dates  */}
-      <h1 className={styles.Thead}>Details About Tashan e Ishq Show :</h1>
-      <div className={styles.Table}>
+      <h1 className={styles.Thead}
+        style={{
+            width: "78%",
+            margin: "auto",
+            marginTop: "40px",
+            marginBottom: "10px",
+            marginLeft: "165px",
+            color: "rgb(216, 211, 211)",
+            fontSize: "24px",
+            fontWeight: "600",
+            textAlign: "left"
+          }}
+      >Details About Tashan e Ishq Show :</h1>
+      <div className={styles.Table}
+          style={{
+                width: "80%",
+                color: "rgb(216, 211, 211)",
+                margin: "auto",
+                marginLeft: "165px",
+                display: "flex",
+                marginBottom: "40px",
+                textAlign: "left"
+          }}
+      >
         {/* ...Table Ist row... */}
-        <div>
-          <div>
+        <div
+        // style={{
+        //       border: "1px solid rgb(216, 211, 211)",
+        //       padding: "10px",
+        //       paddingRight: "378px",
+        //   }}
+          >
+          <div 
+              style={{
+                    border: "1px solid rgb(216, 211, 211)",
+                    padding: "10px",
+                    paddingRight: "378px",
+                }}>
             <a href="/">Show Released Date</a>
           </div>
-          <div>
+          <div 
+              style={{
+                    border: "1px solid rgb(216, 211, 211)",
+                    padding: "10px",
+                    paddingRight: "378px",
+                }}>
             <a href="/">Total Episodes</a>
           </div>
-          <div>
+          <div 
+              style={{
+                    border: "1px solid rgb(216, 211, 211)",
+                    padding: "10px",
+                    paddingRight: "378px",
+                }}>
             <a href="/">Total Episodes</a>
           </div>
         </div>
         {/* ...Table 2nd row... */}
         <div>
-          <div>
+          <div 
+              style={{
+                    border: "1px solid rgb(216, 211, 211)",
+                    padding: "10px",
+                    paddingRight: "378px",
+                }}>
             <a href="/">2015-08-09</a>
           </div>
-          <div>
+          <div 
+              style={{
+                    border: "1px solid rgb(216, 211, 211)",
+                    padding: "10px",
+                    paddingRight: "378px",
+                }}>
             <a href="/">322</a>
           </div>
-          <div>
+          <div 
+              style={{
+                    border: "1px solid rgb(216, 211, 211)",
+                    padding: "10px",
+                    paddingRight: "378px",
+                }}>
             <a href="/">Drama, Romance</a>
           </div>
         </div>
       </div>
 
       {/* 2nd box for TV Shows  */}
-      <div className={styles.Shows}>
+      <div className={styles.Shows}
+      style={{
+            width: " 80%",
+            margin: "auto",
+            display: "flex",
+            textAlign: "left",
+            justifyContent: "space-around",
+            padding: "10px",
+            gap: "20px",
+            marginLeft: "143px",
+            color: "white",
+            flexDirection: "row"
+          }}>
         {/* ...TV Shows By Language... */}
         <div>
           <p>TV Shows By Language</p>
@@ -163,9 +233,31 @@ const Footer2 = () => {
       </div>
 
       {/* 3rd box for App & SocialMedia  */}
+      {/* 1rd box for App & SocialMedia  */}
       {/* <hr /> */}
-      <div className={styles.App}>
-        <div className={styles.App}>
+      <div style={{
+            width: " 80%",
+            margin: "auto",
+            display: "flex",
+            justifyContent: "space-around",
+            padding: "10px",
+            gap: "20px",
+            color: "white",
+            flexDirection: "row"
+          }}>
+        <div
+          className={styles.DApp}
+          style={{
+            width: " 80%",
+            margin: "auto",
+            display: "flex",
+            justifyContent: "space-around",
+            padding: "10px",
+            gap: "20px",
+            color: "white",
+            flexDirection: "row"
+          }}
+        >
           <p>Download apps</p>
           <img
             width="123px"
@@ -180,7 +272,19 @@ const Footer2 = () => {
             alt="applestore"
           />
         </div>
-        <div className={styles.App}>
+        <div
+          className={styles.App}
+          style={{
+            width: " 80%",
+            margin: "auto",
+            display: "flex",
+            justifyContent: "space-around",
+            padding: "10px",
+            gap: "20px",
+            color: "white",
+            flexDirection: "row"
+          }}
+        >
           <p>Connect with us</p>
           <FaFacebookSquare />
           <RiInstagramFill />
@@ -188,18 +292,53 @@ const Footer2 = () => {
           <GrYoutube />
         </div>
       </div>
-      {/* 4rd box for About & Help  */}
+      {/* 2rd box for About & Help  */}
       <div className={styles.About}>
-        <h5>About us | Help Center | Privacy Policy | Terms of Use</h5>
+        <h5
+          style={{
+            width: "50%",
+            marginLeft: "165px",
+            color: "white",
+            fontWeight: "lighter",
+            fontSize: " 14px",
+            textAlign: "left"
+          }}
+        >
+          About us | Help Center | Privacy Policy | Terms of Use
+        </h5>
         <br />
       </div>
-      {/* 5rd box for Popular TV Shows & Movies */}
-      <div className={styles.Shows}>
+      {/* 3rd box for Popular TV Shows & Movies */}
+      <div
+        className={styles.Shows}
+        style={{
+          width: " 80%",
+          margin: "auto",
+          display: "flex",
+          justifyContent: "space-around",
+          padding: "10px",
+          textAlign: "start"
+        }}
+      >
         {/* ...Popular TV Shows... */}
         <div>
           <p>Popular TV Shows</p>
           <div>
-            <a href="/">Kumkum Bhagya</a>
+            <a
+              href="/"
+              // _hover={{
+              //   fontWeight: "bold",
+              //   color: "rgba(219, 166, 247, 0.816)"
+              // }}
+              style={{
+                fontSize: "14px",
+                color: "grey",
+                textAlign: "left",
+                alignItems: "flex-start"
+              }}
+            >
+              Kumkum Bhagya
+            </a>
           </div>
           <div>
             {" "}
@@ -311,8 +450,21 @@ const Footer2 = () => {
         </div>
       </div>
 
-      {/* 6rd box bottom copyright */}
-      <div className={styles.copyright}>
+      {/* 4rd box bottom copyright */}
+      <div
+        className={styles.copyright}
+        style={{
+          fontWeight: "400",
+          color: "grey",
+          width: "75%",
+          margin: "auto",
+          marginTop: "50px",
+          display: "flex",
+          flexDirection: " column",
+          justifyContent: " space-between",
+          alignItems: "flex-start"
+        }}
+      >
         <div>
           <h6>
             Best viewed on Google Chrome 80+, Microsoft Edge 81+, Mozilla

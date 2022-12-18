@@ -12,8 +12,29 @@ const Footer = () => {
 
       {/* 1rd box for App & SocialMedia  */}
       {/* <hr /> */}
-      <div>
-        <div className={styles.DApp}>
+      <div style={{
+            width: " 80%",
+            margin: "auto",
+            display: "flex",
+            justifyContent: "space-around",
+            padding: "10px",
+            gap: "20px",
+            color: "white",
+            flexDirection: "row"
+          }}>
+        <div
+          className={styles.DApp}
+          style={{
+            width: " 80%",
+            margin: "auto",
+            display: "flex",
+            justifyContent: "space-around",
+            padding: "10px",
+            gap: "20px",
+            color: "white",
+            flexDirection: "row"
+          }}
+        >
           <p>Download apps</p>
           <img
             width="123px"
@@ -28,7 +49,19 @@ const Footer = () => {
             alt="applestore"
           />
         </div>
-        <div className={styles.DApp}>
+        <div
+          className={styles.App}
+          style={{
+            width: " 80%",
+            margin: "auto",
+            display: "flex",
+            justifyContent: "space-around",
+            padding: "10px",
+            gap: "20px",
+            color: "white",
+            flexDirection: "row"
+          }}
+        >
           <p>Connect with us</p>
           <FaFacebookSquare />
           <RiInstagramFill />
@@ -38,16 +71,42 @@ const Footer = () => {
       </div>
       {/* 2rd box for About & Help  */}
       <div className={styles.About}>
-        <h5>About us | Help Center | Privacy Policy | Terms of Use</h5>
+        <h5
+          style={{
+            width: "50%",
+            marginLeft: "165px",
+            color: "white",
+            fontWeight: "lighter",
+            fontSize: " 14px",
+            textAlign: "left"
+          }}
+        >
+          About us | Help Center | Privacy Policy | Terms of Use
+        </h5>
         <br />
       </div>
       {/* 3rd box for Popular TV Shows & Movies */}
-      <div className={styles.Shows}>
+      <div
+        className={styles.Shows}
+        style={{
+          width: " 80%",
+          margin: "auto",
+          display: "flex",
+          justifyContent: "space-around",
+          padding: "10px",
+          color: "grey",
+          textAlign: "start"
+        }}
+      >
         {/* ...Popular TV Shows... */}
         <div>
           <p>Popular TV Shows</p>
           <div>
-            <a href="/">Kumkum Bhagya</a>
+            <a
+              href="/"
+            >
+              Kumkum Bhagya
+            </a>
           </div>
           <div>
             {" "}
@@ -160,7 +219,20 @@ const Footer = () => {
       </div>
 
       {/* 4rd box bottom copyright */}
-      <div className={styles.copyright}>
+      <div
+        className={styles.copyright}
+        style={{
+          fontWeight: "400",
+          color: "grey",
+          width: "75%",
+          margin: "auto",
+          marginTop: "50px",
+          display: "flex",
+          flexDirection: " column",
+          justifyContent: " space-between",
+          alignItems: "flex-start"
+        }}
+      >
         <div>
           <h6>
             Best viewed on Google Chrome 80+, Microsoft Edge 81+, Mozilla

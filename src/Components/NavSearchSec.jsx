@@ -91,7 +91,7 @@ import {
                 _hover={{ background: "#8230E9", color: "white" }}
                 leftIcon={<Icon as={RiVipCrownFill} width="18px" height="18px" />}
               >
-                <NavLink to={"/premiumplan"}>BUY PLAN</NavLink>
+                <NavLink to={"/buy"}>BUY PLAN</NavLink>
               </Button>
             )}
           </Box>
