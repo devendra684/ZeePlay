@@ -12,68 +12,68 @@ const music = [
     title: "Kundali Bhagya | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/pnfjSj99dpU",
-    title: "राधाकृष्ण | RadhaKrishn | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/3Zto9U_IUMs",
+    title: "Nagini | Zee TV Premiere",
   },
   {
     video: "https://www.youtube.com/embed/GRspb2J-55M",
     title: "Rabb Se Hai Dua | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/pnfjSj99dpU",
-    title: "Pyar ka Pahla Naam Radha Mohan | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/xKBWN3r5JEk",
+    title: "Pyar ka Pahla Naam | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/GRspb2J-55M",
+    video: "https://www.youtube.com/embed/7bfR_xvRV0A",
     title: "Bhagya Lakshmi | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/H6tFxphsZQs",
-    title: "Sa Re Ga Ma Pa Lil Champs | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/VchyUCVDnvE",
+    title: "Sa Re Ga Ma Pa | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/vg0ZfeszGrU",
+    video: "https://www.youtube.com/embed/J1Wrbuf5aTY",
     title: "Rab Se Hai Dua | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/tpFljbJxZiw",
-    title: "Mett | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/8wMyr_jeEjY",
+    title: "Highway Dreams | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/D4fC4HVpP3M",
-    title: "Mett | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/e7hhoLkZMwY",
+    title: "Sa Re Ga Ma  | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/T-ztCxK4H00",
-    title: "Mett | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/gqF_7lcxXt8",
+    title: "Pyar Ka Naam Radha | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/8Z8qobg8UdA",
-    title: "Mett | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/NLQ7Xgcn19E",
+    title: "Bhagya Lakshmi | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/PJGVDaSaQWQ",
-    title: "Mett | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/NcrMPbmOILU",
+    title: "Kanika Mann Show | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/uaCYeQ9FtSI",
-    title: "Mett | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/C-1YzvAm7dM",
+    title: "Doosri Maa | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/ReXw6TOnUOc",
-    title: "Mett | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/APEqtqm6SN8",
+    title: "Bhabi Ji Ghar Par Hai | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/i2GC06euEDE",
-    title: "Mett | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/21_zvZV4vtk",
+    title: "BR Ambedkar Hindi | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/iMdH_G4N9nY",
-    title: "Mett | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/b3JJtG0Qzu8",
+    title: "Doosri Maa | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/OulN7vTDq1I",
-    title: "Mett | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/KpExC0RhRw8",
+    title: "Maa Before & Tv | Zee TV Premiere",
   }
 ];
 
@@ -83,6 +83,10 @@ const TVShows = () => {
       <Box>
         <Navbar />
       </Box>
+      <Box color="Grey" fontSize="33px" textAlign="Left" fontWeight="bold" width="83.5%" margin="auto" marginBottom="30px"> 
+      Zee Play Premiere : TVShows 
+      </Box>
+      {/* <hr   width="83.5%" justifyContent="center"/> */}
       <Grid gridTemplateColumns="repeat(3,1fr)" width="90%" margin="auto" gap="20px">
         {music.map((el) => (
           <GridItem margin="auto">

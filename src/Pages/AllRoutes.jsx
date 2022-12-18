@@ -4,6 +4,8 @@ import Home from './Home'
 import Login from './Login'
 import Movies from './Movies'
 import TVShows from "./TVShows";
+import WebSeries from "./WebSeries";
+import News from "./News";
 import Payment from './Payment'
 import Buy from './Buy'
 import Register from './Register'
@@ -15,6 +17,8 @@ export default function AllRoutes() {
         <Route path="/login" element={<Login />}></Route>
         <Route path="/TVShows" element={<TVShows />}></Route>
         <Route path="/movies" element={<Movies />}></Route>
+        <Route path="/WebSeries" element={<WebSeries />}></Route>
+        <Route path="/News" element={<News />}></Route>
         <Route path="/register" element={<Register />}></Route>
         <Route path="/Buy" element={<Buy />}></Route>
         <Route path="/payment" element={<Payment />}></Route>

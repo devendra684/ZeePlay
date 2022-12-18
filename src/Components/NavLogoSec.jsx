@@ -67,13 +67,13 @@ export default function NavLogoSec() {
               bg="#0F0617"
               _hover={{ background: "#0F0617", textDecoration: "underline" }}
             >
-              <BreadcrumbLink href="/">Web Series</BreadcrumbLink>
+              <BreadcrumbLink href="/WebSeries">Web Series</BreadcrumbLink>
             </BreadcrumbItem>
             <BreadcrumbItem
               bg="#0F0617"
               _hover={{ background: "#0F0617", textDecoration: "underline" }}
             >
-              <BreadcrumbLink href="/">News</BreadcrumbLink>
+              <BreadcrumbLink href="/News">News</BreadcrumbLink>
             </BreadcrumbItem>
           </Breadcrumb>
         </Box>
