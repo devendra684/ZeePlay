@@ -5,15 +5,167 @@ import { RiInstagramFill } from "react-icons/ri";
 import { FaTwitter } from "react-icons/fa";
 import { GrYoutube } from "react-icons/gr";
 
-const Footer = () => {
+const Footer2 = () => {
   return (
     <div style={{ marginTop: "30px", backgroundColor: "#0f0617" }}>
       <hr />
+      {/*Table section for new release dates  */}
+      <h1 className={styles.Thead}>Details About Tashan e Ishq Show :</h1>
+      <div className={styles.Table}>
+        {/* ...Table Ist row... */}
+        <div>
+          <div>
+            <a href="/">Show Released Date</a>
+          </div>
+          <div>
+            <a href="/">Total Episodes</a>
+          </div>
+          <div>
+            <a href="/">Total Episodes</a>
+          </div>
+        </div>
+        {/* ...Table 2nd row... */}
+        <div>
+          <div>
+            <a href="/">2015-08-09</a>
+          </div>
+          <div>
+            <a href="/">322</a>
+          </div>
+          <div>
+            <a href="/">Drama, Romance</a>
+          </div>
+        </div>
+      </div>
 
-      {/* 1rd box for App & SocialMedia  */}
+      {/* 2nd box for TV Shows  */}
+      <div className={styles.Shows}>
+        {/* ...TV Shows By Language... */}
+        <div>
+          <p>TV Shows By Language</p>
+          <div>
+            <a href="/">Hindi TV Shows</a>
+          </div>
+          <div>
+            {" "}
+            <a href="/">Marathi TV Shows</a>
+          </div>
+          <div>
+            <a href="/">Tamil TV Shows</a>
+          </div>
+          <div>
+            <a href="/">Telugu TV Shows</a>
+          </div>
+          <div>
+            <a href="/">Malayalam TV Shows</a>
+          </div>
+        </div>
+        {/* ...TV Shows By Genes... */}
+        <div>
+          <p>TV Shows By Genes</p>
+          <div>
+            <a href="/">Drama TV Shows</a>
+          </div>
+          <div>
+            {" "}
+            <a href="/">Romantic</a>
+          </div>
+          <div>
+            <a href="/">Family TV Shows</a>
+          </div>
+          <div>
+            <a href="/">Comedy Shows</a>
+          </div>
+          <div>
+            <a href="/">Reality TV Shows</a>
+          </div>
+        </div>
+        {/* ...TV Shows By Channel... */}
+        <div>
+          <p>TV Shows By Channel</p>
+          <div>
+            <a href="/">Zee TV Shows</a>
+          </div>
+          <div>
+            {" "}
+            <a href="/">&TV Shows</a>
+          </div>
+          <div>
+            <a href="/">Zee Tamil Shows</a>
+          </div>
+          <div>
+            <a href="/">Zee Marathi Shows</a>
+          </div>
+          <div>
+            <a href="/">Zee Bangla Shows</a>
+          </div>
+        </div>
+        {/* ...Must Watch Hindi TV Shows... */}
+        <div>
+          <p>Must Watch Hindi TV Shows</p>
+          <div>
+            <a href="/">Jodha Akbar</a>
+          </div>
+          <div>
+            {" "}
+            <a href="/">Yeh Teri Galiyan</a>
+          </div>
+          <div>
+            <a href="/">Apna Time Bhi Ayega</a>
+          </div>
+          <div>
+            <a href="/">Pavitra Rishta</a>
+          </div>
+          <div>
+            <a href="/">Teri Meri Ikk Jindri</a>
+          </div>
+        </div>
+        {/* ...Must Watch Marathi TV Shows... */}
+        <div>
+          <p>Must Watch Marathi TV Shows</p>
+          <div>
+            <a href="/">Mazhi Tuzhi</a>
+          </div>
+          <div>
+            {" "}
+            <a href="/">Yeu Kashi Tashi</a>
+          </div>
+          <div>
+            <a href="/">Lagira Zhala Jee</a>
+          </div>
+          <div>
+            <a href="/">Man Udu Udu Zhala</a>
+          </div>
+          <div>
+            <a href="/">Phulpakhru</a>
+          </div>
+        </div>
+        {/* ...Latest TV Shows... */}
+        <div>
+          <p>Latest TV Shows</p>
+          <div>
+            <a href="/">Riston ka Manjha</a>
+          </div>
+          <div>
+            {" "}
+            <a href="/">Meet</a>
+          </div>
+          <div>
+            <a href="/">Bhagya Lakhshmi</a>
+          </div>
+          <div>
+            <a href="/">Comedy Shows</a>
+          </div>
+          <div>
+            <a href="/">Ghar Ek Mandir</a>
+          </div>
+        </div>
+      </div>
+
+      {/* 3rd box for App & SocialMedia  */}
       {/* <hr /> */}
-      <div>
-        <div className={styles.DApp}>
+      <div className={styles.App}>
+        <div className={styles.App}>
           <p>Download apps</p>
           <img
             width="123px"
@@ -28,7 +180,7 @@ const Footer = () => {
             alt="applestore"
           />
         </div>
-        <div className={styles.DApp}>
+        <div className={styles.App}>
           <p>Connect with us</p>
           <FaFacebookSquare />
           <RiInstagramFill />
@@ -36,12 +188,12 @@ const Footer = () => {
           <GrYoutube />
         </div>
       </div>
-      {/* 2rd box for About & Help  */}
+      {/* 4rd box for About & Help  */}
       <div className={styles.About}>
         <h5>About us | Help Center | Privacy Policy | Terms of Use</h5>
         <br />
       </div>
-      {/* 3rd box for Popular TV Shows & Movies */}
+      {/* 5rd box for Popular TV Shows & Movies */}
       <div className={styles.Shows}>
         {/* ...Popular TV Shows... */}
         <div>
@@ -159,7 +311,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* 4rd box bottom copyright */}
+      {/* 6rd box bottom copyright */}
       <div className={styles.copyright}>
         <div>
           <h6>
@@ -179,4 +331,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer2;
