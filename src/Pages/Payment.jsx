@@ -2,7 +2,6 @@ import { CloseIcon } from "@chakra-ui/icons";
 import { Box, Button, Center, Flex, Input, useToast } from "@chakra-ui/react";
 import React,{useState} from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import styles from "../Styles/Payment.css";
 import { useContext } from "react";
 import { AuthContext } from "../Context/AuthContext";
 import {AlertSuccess} from "../Context/Action"
@@ -64,11 +63,33 @@ const Payment = () => {
           </NavLink>
         </Flex>
       </Box>
-      <Box className={styles.box}>
-        <Box className={styles.header}>
+      <Box 
+                  style={{
+                      width: "400px",
+                      height: "562px",
+                      margin: "auto",
+                      marginTop: "30px",
+                      borderRadius: '10px',
+                      paddingTop: '10px',
+                  }}>
+        <Box 
+                  style={{
+                        textAlign: "left",
+                        fontWeight: "bold",
+                        fontSize: "xx-large",
+                        marginBottom: "20px",
+                        color: "white",
+                  }}>
           <h1> Make Payment</h1>
         </Box>
-        <Box className={styles.inp}>
+        <Box
+                  style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        gap: "20px",
+                        textAlign: "left",
+                        color: "white",
+                  }}>
           <Box>
             <label> Enter Card Number</label>
             <Input

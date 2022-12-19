@@ -6,16 +6,15 @@ export default function Movies() {
   return (
     <div style={{marginTop:"20px"}} className="movie__rows">
       <Rows title="Trending Now" fetchUrl={requests.fetchTrending} />
-        <Rows
-          title="ZEE5 ORIGINALS"
-          fetchUrl={requests.fetchNetflixOriginals}
-          isLargeRow
-        />
+        <Rows title="Science Frictional Movies" fetchUrl={requests.fetchScienceMovies} />
+        <Rows title="ZEE5 ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} isLargeRow />
         <Rows title="Top Rated" fetchUrl={requests.fetchTopRated} />
         <Rows title="Action Movies" fetchUrl={requests.fetchActionMovies} />
-        <Rows title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
+        <Rows title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} isLargeRow/>
         <Rows title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
         <Rows title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
+        <Rows title="Historical Movies" fetchUrl={requests.fetchHistoricalMovies} />
+        <Rows title="Drama Movies" fetchUrl={requests.fetchDramaMovies} isLargeRow/>
         <Rows title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
     </div>
   )

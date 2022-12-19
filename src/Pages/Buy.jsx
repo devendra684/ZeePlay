@@ -1,6 +1,5 @@
 import { Box, Button, Checkbox, Flex, Image } from "@chakra-ui/react";
 import React,{ useContext } from "react";
-import styles from "../Styles/Buy.css";
 import { NavLink, useNavigate } from "react-router-dom";
 import { CloseIcon, QuestionOutlineIcon } from "@chakra-ui/icons";
 import { BsCheckCircle, BsCheckLg } from "react-icons/bs";
@@ -22,6 +21,10 @@ const Buy = () => {
     )
   }
 
+  // style={{
+  //   width: " 80%"
+  // }}
+
   return (
     <Box>
       <Box w="90%">
@@ -32,82 +35,254 @@ const Buy = () => {
         </Flex>
       </Box>
       <Box style={{ paddingTop: "10px", paddingBottom: "1rem" }}>
-        <Box className={styles.container}>
-          <Box className={styles.left}>
-            <h1>Watch Ad-Free with Premium!</h1>
-            <Box className={styles.flex}>
+        <Box 
+        style={{
+              width: "900px",
+              height: "560px",
+              margin: "auto",
+              marginTop: "60px",
+              marginBottom: "100px",
+              background: "white",
+              color: "black",
+              display: "flex",
+              justifyContent: "space-between",
+              borderRadius: "10px",
+              paddingTop: "3rem",
+        }}>
+          <Box 
+                
+                style={{
+                      width: "49%",
+                      height: "100%",
+                      boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px"
+                }}
+          >
+            <h1 style={{
+                  marginTop: "20px",
+                  fontSize: "x-large",
+                  fontWeight: "bold",
+              }}
+              >Watch Ad-Free with Premium!</h1>
+            <Box  
+                  style={{
+                        display: "flex",
+                        textAlign: "left",
+                        width: "80%",
+                        margin: 'auto',
+                        marginTop: '30px',
+                        color: "black",
+                        justifyContent: 'space-between',
+                    }}
+            >
               <Box>
                 <BsCheckLg color="rgb(250, 111, 190)" size="1.5rem" />
               </Box>
               <Box>
-                <p>2800+ Blockbuster Movies</p>
+                <p 
+                  style={{
+                    color: "black",
+                    fontWeight: "100",
+                    fontSize: '16px',
+                  }}
+                  >2800+ Blockbuster Movies</p>
               </Box>
               <Box>
                 <QuestionOutlineIcon />
               </Box>
             </Box>
-            <Box className={styles.flex}>
+            <Box 
+                  style={{
+                        display: "flex",
+                        textAlign: "left",
+                        width: "80%",
+                        margin: 'auto',
+                        marginTop: '30px',
+                        color: "black",
+                        justifyContent: 'space-between',
+                    }}>
               <Box>
                 <BsCheckLg color="rgb(250, 111, 190)" size="1.5rem" />
               </Box>
-              <p>250+ Web Series</p>
+              <p
+                  style={{
+                    color: "black",
+                    fontWeight: "100",
+                    fontSize: '16px',
+                  }}>250+ Web Series</p>
               <Box>
                 <QuestionOutlineIcon />
               </Box>
             </Box>
-            <Box className={styles.flex}>
+            <Box 
+                  style={{
+                        display: "flex",
+                        textAlign: "left",
+                        width: "80%",
+                        margin: 'auto',
+                        marginTop: '30px',
+                        color: "black",
+                        justifyContent: 'space-between',
+                    }}>
               <Box>
                 <BsCheckLg color="rgb(250, 111, 190)" size="1.5rem" />
               </Box>
-              <p>Live TV, Before TV</p>
+              <p
+                  style={{
+                    color: "black",
+                    fontWeight: "100",
+                    fontSize: '16px',
+                  }}>Live TV, Before TV</p>
               <Box>
                 <QuestionOutlineIcon />
               </Box>
             </Box>
-            <Box className={styles.flex}>
+            <Box 
+                  style={{
+                        display: "flex",
+                        textAlign: "left",
+                        width: "80%",
+                        margin: 'auto',
+                        marginTop: '30px',
+                        color: "black",
+                        justifyContent: 'space-between',
+                    }}>
               <Box>
                 <BsCheckLg color="rgb(250, 111, 190)" size="1.5rem" />
               </Box>
-              <p>Offer: Extra 10% OFF on Cards</p>
+              <p
+                  style={{
+                    color: "black",
+                    fontWeight: "100",
+                    fontSize: '16px',
+                  }}>Offer: Extra 10% OFF on Cards</p>
               <Box>
                 <QuestionOutlineIcon />
               </Box>
             </Box>
-            <Box className={styles.flex}>
+            <Box 
+                  style={{
+                        display: "flex",
+                        textAlign: "left",
+                        width: "80%",
+                        margin: 'auto',
+                        marginTop: '30px',
+                        color: "black",
+                        justifyContent: 'space-between',
+                    }}>
               <Box>
                 <BsCheckLg color="rgb(250, 111, 190)" size="1.5rem" />
               </Box>
-              <p>Watch on Mobile, TV, Laptop</p>
+              <p
+                  style={{
+                    color: "black",
+                    fontWeight: "100",
+                    fontSize: '16px',
+                  }}>Watch on Mobile, TV, Laptop</p>
               <Box>
                 <QuestionOutlineIcon />
               </Box>
             </Box>
-            <Box className={styles.flex}>
+            <Box 
+                  style={{
+                        display: "flex",
+                        textAlign: "left",
+                        width: "80%",
+                        margin: 'auto',
+                        marginTop: '30px',
+                        color: "black",
+                        justifyContent: 'space-between',
+                    }}>
               <Box>
                 <BsCheckLg color="rgb(250, 111, 190)" size="1.5rem" />
               </Box>
-              <p>Eduaurra Competitive Exams Learning</p>
+              <p
+                  style={{
+                    color: "black",
+                    fontWeight: "100",
+                    fontSize: '16px',
+                  }}>Eduaurra Competitive Exams Learning</p>
               <Box>
                 <QuestionOutlineIcon />
               </Box>
             </Box>
           </Box>
-          <Box className={styles.right}>
-            <Box className={styles.box1}>
-              <Box className={styles.line}>
-                <Box className={styles.flex2}>
-                  <Box className={styles.off}>
+          <Box 
+                  style={{
+                  width: "49%",
+                  height: "100%",
+                  color: "black",
+                }}>
+            <Box  
+            
+            style={{
+                    width: "95%",
+                    height: "30%",
+                    border: "1px dashed black",
+                    margin: "auto",
+                    marginTop: "10px",
+                    padding: '10px',
+                    borderRadius: "10px",
+                    background: "rgb(241, 238, 238)",
+                  }}>
+              <Box style={{borderBottom: "1px dashed black"}}>
+                <Box 
+                  style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                    }}>
+                  <Box 
+                  style={{
+                          background: "rgb(84, 159, 230)",
+                          padding: "4px",
+                          borderRadius:" 3px",
+                          margin: "auto",
+                          marginTop: "10px",
+                          marginLeft: "10px",
+                        }}>
                     <p>LIMITED PERIOD OFFER</p>
                   </Box>
-                  <Box className={styles.off2}>SAVE 30%</Box>
+                  <Box 
+                  style={{
+                            border: "1px solid rgb(226, 61, 89)",
+                            color: "rgb(226, 61, 89)",
+                            background: "transparent",
+                            padding: "4px",
+                            borderRadius: "3px",
+                            marginTop: "10px",
+                            marginRight: "10px",
+                        }}>
+                        SAVE 30%</Box>
                 </Box>
 
-                <Box className={styles.flex3}>
-                  <Box className={styles.price}>
+                <Box 
+                  style={{
+                        display: "flex",
+                        // textAlign: "left",
+                        width: "95%",
+                        margin: 'auto',
+                        marginTop: '10px',
+                        // color: "black",
+                        justifyContent: 'space-between',
+                        flexDirection: "row",
+                    }}>
+                  <Box 
+                              style={{
+                              display: "flex",
+                              flexDirection: "column",
+                            }}>
                     <h1>12 months plan</h1>
-                    <p>Effective price ₹58/month</p>
+                    <p
+                              style={{
+                                color: "black",
+                                fontWeight: "100",
+                            }}>
+                            Effective price ₹58/month</p>
                   </Box>
-                  <Box className={styles.price2}>
+                  <Box 
+                              style={{
+                              display: "flex",
+                              flexDirection: "row",
+                            }}>
                     <s>999</s>
                     <h1
                       style={{
@@ -130,29 +305,65 @@ const Buy = () => {
                   </Box>
                 </Box>
               </Box>
-              <Box className={styles.innerbox}>
+              <Box 
+              >
                 <Image
                   width="30px"
                   height="30px"
                   src="https://cdn-icons-png.flaticon.com/512/482/482478.png"
                   alt=""
                 />
-                <p>Watch on 3 Screens at the same time</p>
+                <p
+                      style={{
+                        color: 'black',
+                        margin: 'auto',
+                        marginTop: "-25px",
+                      }}>Watch on 3 Screens at the same time</p>
               </Box>
             </Box>
 
-            <Box className={styles.box2}>
-              <Box className={styles.line}>
-                <Box className={styles.flex3}>
-                  <Box className={styles.price}>
-                    <h1>3 months plan</h1>
+            <Box 
+            style={{
+                    width: "95%",
+                    height: "18%",
+                    border: "1px dashed black",
+                    margin: "auto",
+                    marginTop: "30px",
+                    padding: '10px',
+                    borderRadius: "10px",
+                    background: "rgb(241, 238, 238)",
+                  }}>
+              <Box  style={{borderBottom: "1px dashed black"}}
+                >
+                <Box 
+                  style={{
+                        display: "flex",
+                        // textAlign: "left",
+                        width: "95%",
+                        margin: 'auto',
+                        marginTop: '10px',
+                        // color: "black",
+                        justifyContent: 'space-between',
+                        flexDirection: "row",
+                    }}>
+                  <Box 
+                              style={{
+                              display: "flex",
+                              flexDirection: "column",
+                            }}>
+                    <h1 
+                        color=" black" 
+                        >3 months plan</h1>
                   </Box>
-                  <Box className={styles.price2}>
+                  <Box 
+                              style={{
+                              display: "flex",
+                              flexDirection: "row",
+                            }}>
                     <h1
                       style={{
-                        fontSize: "19px",
-                        fontWeight: "bold",
-                        marginRight: "5px",
+                          fontWeight: "bold",
+                          fontsize: "large",
                       }}
                     >
                       499
@@ -161,14 +372,25 @@ const Buy = () => {
                   </Box>
                 </Box>
               </Box>
-              <Box className={styles.innerbox}>
+              <Box
+                      style={{
+                        width: "100%",
+                        height: "10%",
+                      }} >
                 <Image
                   width="30px"
                   height="30px"
                   src="https://cdn-icons-png.flaticon.com/512/482/482478.png"
                   alt=""
                 />
-                <p>Watch on 2 Screens at the same time</p>
+                <p
+                      style={{
+                        color: 'black',
+                        margin: 'auto',
+                        marginTop: "-25px",
+                      }}
+                    >
+                    Watch on 2 Screens at the same time</p>
               </Box>
             </Box>
             <Box>
