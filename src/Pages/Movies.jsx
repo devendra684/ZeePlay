@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from "../Components/Navbar2"; 
+import Navbar from "../Components/Navbar"; 
 import requests from '../Components/Api/Requests'
 import CaptionCarousel from "../Components/Slider";
 import Footer from "./Footer";
