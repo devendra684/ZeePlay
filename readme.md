@@ -26,7 +26,7 @@ I have used HTML, CSS, Javascript, ReactJs, ES6, Chakra UI.
 
 - ## <span style="color:blue"> WebSeries Page </span>
 
-![Screenshot (5)](https://user-images.githubusercontent.com/100137935/208624214-a7df28a4-4c76-448f-87d9-1f1eb8f39715.jpeg)
+![Screenshot (5) width="100%"](https://user-images.githubusercontent.com/100137935/208624214-a7df28a4-4c76-448f-87d9-1f1eb8f39715.jpeg)
 
 
 - ## <span style="color:blue"> Video Page </span>
