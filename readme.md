@@ -2,7 +2,7 @@
 
 # <span style="color:red"> Welcome Here!</span>
 
-Hello Welcome Zee Play,<br>
+Hello & Welcome to Zee Play,<br>
 It is a Subscription-based OTT (over-the-top) platform to access Entertainment content. This is a Individual Project build in 5 days in Construct Week at Masai School.
 
 # <span style="color:red"> Tech Stack Used: </span>
@@ -11,7 +11,7 @@ I have used HTML, CSS, Javascript, ReactJs, ES6, Chakra UI.
 
 ### Snapshots of Zee Play project :- 
 
-- ## <span style="color:blue"> Home Page- Header & Carousel </span>
+- ## <span style="color:blue"> Home Page: Header & Carousel </span>
 
 ![Screenshot (1)](https://user-images.githubusercontent.com/100137935/208622696-a6ae0a70-d2be-493e-995a-ea621fbb46d9.png)
 
