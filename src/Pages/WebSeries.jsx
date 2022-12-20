@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 // import { Navigate } from "react-router-dom";
-import Navbar from "../Components/Navbar";
+import Navbar from "../Components/Navbar2";
 import Footer from "./Footer";
 // import {useState} from "react";
 

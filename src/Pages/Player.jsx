@@ -1,6 +1,6 @@
 import { Box, GridItem, Text } from "@chakra-ui/react";
 import React from "react";
-import Navbar from "../Components/Navbar";
+import Navbar from "../Components/Navbar2";
 import Footer2 from "./Footer2";
 
 
