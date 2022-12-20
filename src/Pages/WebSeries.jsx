@@ -100,11 +100,11 @@ const WebSeries = () => {
       </Box><Box color="Grey" fontSize="33px" textAlign="Left" fontWeight="bold" width="83.5%" margin="auto" marginBottom="30px"> 
       Zee Play Premiere : WebSeries 
       </Box>
-      <Grid gridTemplateColumns="repeat(3,1fr)" width="90%" margin="auto" gap="20px">
+      <Grid gridTemplateColumns="repeat(3,1fr)" width="95%"  margin="auto" gap="20px">
         {Video.map((el) => (
-          <GridItem margin="auto">
+          <GridItem margin="auto" border="1px solid grey" width="90%" height="280px">
             <iframe
-              src={el.video}
+              src={el.video} width="99.9%" height="184px" margin="auto"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
