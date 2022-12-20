@@ -1,84 +1,99 @@
-import { Box, Grid, GridItem, Text } from "@chakra-ui/react";
+import { 
+  Box, 
+  Grid, 
+  GridItem, 
+  Text,
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  Button,
+} from "@chakra-ui/react";
 import React from "react";
+// import { Navigate } from "react-router-dom";
 import Navbar from "../Components/Navbar";
 import Footer from "./Footer";
-const music = [
+// import {useState} from "react";
+
+const Video = [
   {
-    video: "https://www.youtube.com/embed/P8qF8C8PeZ8",
-    title: "Mett | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/K7Z47_WeT84",
+    title: "Pitchers 2 | ZEE5 Original",
   },
   {
-    video: "https://www.youtube.com/embed/QVaLERuq19Y",
-    title: "Kundali Bhagya | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/ud4q6pWukpQ",
+    title: "Tadka | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/pnfjSj99dpU",
-    title: "राधाकृष्ण | RadhaKrishn | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/-0d7TVQ-SpM",
+    title: "Mithya | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/GRspb2J-55M",
-    title: "Rabb Se Hai Dua | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/9wZ-qHE1w3o",
+    title: "Mukhbir | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/xKBWN3r5JEk",
-    title: "Pyar ka Pahla Naam Radha Mohan | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/jX97ow4LNSM",
+    title: "Pitchers Ashneer | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/7bfR_xvRV0A",
-    title: "Bhagya Lakshmi | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/CZ_VAKOkI3s",
+    title: "Forensic | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/VchyUCVDnvE",
-    title: "Sa Re Ga Ma Pa Lil Champs | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/KNjBhoxNpvw",
+    title: "Blurr | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/J1Wrbuf5aTY",
-    title: "Rab Se Hai Dua | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/eoIO5-O2Qvk",
+    title: "SunFlower | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/8wMyr_jeEjY",
-    title: "Highway Dreams | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/JvW2cg3utis",
+    title: "LalBazaar | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/e7hhoLkZMwY",
-    title: "Sa Re Ga Ma  | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/QblXRGSTJlU",
+    title: "Rangbaar  | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/gqF_7lcxXt8",
-    title: "Pyar Ka Pahla Naam Radha Mohan | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/w126lwvMXOA",
+    title: "Padamati | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/NLQ7Xgcn19E",
-    title: "Bhagya Lakshmi | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/9ljbq9lM5GQ",
+    title: "India Lockdown | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/NcrMPbmOILU",
-    title: "Kanika Mann Show | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/d7rhloDcDD4",
+    title: "Poison | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/NcrMPbmOILU",
-    title: "Doosri Maa | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/gso7gmZdvzY",
+    title: "Silence | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/APEqtqm6SN8",
-    title: "Bhabi Ji Ghar Par Hai | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/uvSkdTmRMx8",
+    title: "Country Mafia | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/21_zvZV4vtk",
-    title: "BR Ambedkar Hindi | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/dgnhX3fyAkM",
+    title: "Rangbaar Phirse | Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/b3JJtG0Qzu8",
-    title: "Doosri Maa | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/Mm9ZIBkMOvc",
+    title: "Shadayanta| Zee TV Premiere",
   },
   {
-    video: "https://www.youtube.com/embed/KpExC0RhRw8",
-    title: "Maa Before & Tv | Zee TV Premiere",
+    video: "https://www.youtube.com/embed/5MDhvzxQ24E",
+    title: "Achaar | Zee TV Premiere",
   }
 ];
 
+
 const WebSeries = () => {
+
   return (
+
     <Box>
       <Box>
         <Navbar />
@@ -86,7 +101,7 @@ const WebSeries = () => {
       Zee Play Premiere : WebSeries 
       </Box>
       <Grid gridTemplateColumns="repeat(3,1fr)" width="90%" margin="auto" gap="20px">
-        {music.map((el) => (
+        {Video.map((el) => (
           <GridItem margin="auto">
             <iframe
               src={el.video}
@@ -95,7 +110,35 @@ const WebSeries = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-            <Text>{el.title}</Text>
+            <Text 
+                padding={3.5}
+                fontSize={15}>
+                  {el.title}
+            </Text>
+
+            <Button
+                size="sm"
+                padding={3.5}
+                fontSize={15}
+                // w={140}
+                width="80%"
+                colorScheme="purple"
+                _hover={{ background: "#8230E9", color: "white" }}
+              >
+                {/* <Navigate to="/player"> 
+                  Watch Full
+                </Navigate>  */}
+                <Breadcrumb>
+                <BreadcrumbItem
+              // bg="#0F0617"
+              // _hover={{ background: "#0F0617", textDecoration: "underline" }}
+            >
+              <BreadcrumbLink href="/player">Watch Full</BreadcrumbLink>
+            </BreadcrumbItem>
+          </Breadcrumb>
+              </Button>
+
+                  
           </GridItem>
         ))}
       </Grid>
@@ -107,3 +150,5 @@ const WebSeries = () => {
 };
 
 export default WebSeries;
+
+

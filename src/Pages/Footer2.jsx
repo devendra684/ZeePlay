@@ -9,230 +9,145 @@ const Footer2 = () => {
   return (
     <div style={{ marginTop: "30px", backgroundColor: "#0f0617" }}>
       <hr />
-      {/*Table section for new release dates  */}
-      <h1 className={styles.Thead}
-        style={{
-            width: "78%",
-            margin: "auto",
-            marginTop: "40px",
-            marginBottom: "10px",
-            marginLeft: "165px",
-            color: "rgb(216, 211, 211)",
-            fontSize: "24px",
-            fontWeight: "600",
-            textAlign: "left"
-          }}
-      >Details About Tashan e Ishq Show :</h1>
-      <div className={styles.Table}
-          style={{
-                width: "80%",
-                color: "rgb(216, 211, 211)",
-                margin: "auto",
-                marginLeft: "165px",
-                display: "flex",
-                marginBottom: "40px",
-                textAlign: "left"
-          }}
-      >
-        {/* ...Table Ist row... */}
-        <div
-        // style={{
-        //       border: "1px solid rgb(216, 211, 211)",
-        //       padding: "10px",
-        //       paddingRight: "378px",
-        //   }}
-          >
-          <div 
-              style={{
-                    border: "1px solid rgb(216, 211, 211)",
-                    padding: "10px",
-                    paddingRight: "378px",
-                }}>
-            <a href="/">Show Released Date</a>
-          </div>
-          <div 
-              style={{
-                    border: "1px solid rgb(216, 211, 211)",
-                    padding: "10px",
-                    paddingRight: "378px",
-                }}>
-            <a href="/">Total Episodes</a>
-          </div>
-          <div 
-              style={{
-                    border: "1px solid rgb(216, 211, 211)",
-                    padding: "10px",
-                    paddingRight: "378px",
-                }}>
-            <a href="/">Total Episodes</a>
-          </div>
-        </div>
-        {/* ...Table 2nd row... */}
-        <div>
-          <div 
-              style={{
-                    border: "1px solid rgb(216, 211, 211)",
-                    padding: "10px",
-                    paddingRight: "378px",
-                }}>
-            <a href="/">2015-08-09</a>
-          </div>
-          <div 
-              style={{
-                    border: "1px solid rgb(216, 211, 211)",
-                    padding: "10px",
-                    paddingRight: "378px",
-                }}>
-            <a href="/">322</a>
-          </div>
-          <div 
-              style={{
-                    border: "1px solid rgb(216, 211, 211)",
-                    padding: "10px",
-                    paddingRight: "378px",
-                }}>
-            <a href="/">Drama, Romance</a>
-          </div>
-        </div>
-      </div>
 
-      {/* 2nd box for TV Shows  */}
-      <div className={styles.Shows}
-      style={{
-            width: " 80%",
-            margin: "auto",
-            display: "flex",
-            textAlign: "left",
-            justifyContent: "space-around",
-            padding: "10px",
-            gap: "20px",
-            marginLeft: "143px",
-            color: "white",
-            flexDirection: "row"
-          }}>
-        {/* ...TV Shows By Language... */}
-        <div>
-          <p>TV Shows By Language</p>
-          <div>
-            <a href="/">Hindi TV Shows</a>
-          </div>
-          <div>
-            {" "}
-            <a href="/">Marathi TV Shows</a>
-          </div>
-          <div>
-            <a href="/">Tamil TV Shows</a>
-          </div>
-          <div>
-            <a href="/">Telugu TV Shows</a>
-          </div>
-          <div>
-            <a href="/">Malayalam TV Shows</a>
-          </div>
-        </div>
-        {/* ...TV Shows By Genes... */}
-        <div>
-          <p>TV Shows By Genes</p>
-          <div>
-            <a href="/">Drama TV Shows</a>
-          </div>
-          <div>
-            {" "}
-            <a href="/">Romantic</a>
-          </div>
-          <div>
-            <a href="/">Family TV Shows</a>
-          </div>
-          <div>
-            <a href="/">Comedy Shows</a>
-          </div>
-          <div>
-            <a href="/">Reality TV Shows</a>
-          </div>
-        </div>
-        {/* ...TV Shows By Channel... */}
-        <div>
-          <p>TV Shows By Channel</p>
-          <div>
-            <a href="/">Zee TV Shows</a>
-          </div>
-          <div>
-            {" "}
-            <a href="/">&TV Shows</a>
-          </div>
-          <div>
-            <a href="/">Zee Tamil Shows</a>
-          </div>
-          <div>
-            <a href="/">Zee Marathi Shows</a>
-          </div>
-          <div>
-            <a href="/">Zee Bangla Shows</a>
-          </div>
-        </div>
-        {/* ...Must Watch Hindi TV Shows... */}
-        <div>
-          <p>Must Watch Hindi TV Shows</p>
-          <div>
-            <a href="/">Jodha Akbar</a>
-          </div>
-          <div>
-            {" "}
-            <a href="/">Yeh Teri Galiyan</a>
-          </div>
-          <div>
-            <a href="/">Apna Time Bhi Ayega</a>
-          </div>
-          <div>
-            <a href="/">Pavitra Rishta</a>
-          </div>
-          <div>
-            <a href="/">Teri Meri Ikk Jindri</a>
-          </div>
-        </div>
-        {/* ...Must Watch Marathi TV Shows... */}
-        <div>
-          <p>Must Watch Marathi TV Shows</p>
-          <div>
-            <a href="/">Mazhi Tuzhi</a>
-          </div>
-          <div>
-            {" "}
-            <a href="/">Yeu Kashi Tashi</a>
-          </div>
-          <div>
-            <a href="/">Lagira Zhala Jee</a>
-          </div>
-          <div>
-            <a href="/">Man Udu Udu Zhala</a>
-          </div>
-          <div>
-            <a href="/">Phulpakhru</a>
-          </div>
-        </div>
-        {/* ...Latest TV Shows... */}
-        <div>
-          <p>Latest TV Shows</p>
-          <div>
-            <a href="/">Riston ka Manjha</a>
-          </div>
-          <div>
-            {" "}
-            <a href="/">Meet</a>
-          </div>
-          <div>
-            <a href="/">Bhagya Lakhshmi</a>
-          </div>
-          <div>
-            <a href="/">Comedy Shows</a>
-          </div>
-          <div>
-            <a href="/">Ghar Ek Mandir</a>
-          </div>
-        </div>
-      </div>
+        {/* 2nd box for TV Shows  */}
+<div className={styles.Shows}
+style={{
+      width: " 80%",
+      margin: "auto",
+      display: "flex",
+      textAlign: "left",
+      justifyContent: "space-around",
+      padding: "10px",
+      gap: "20px",
+      marginLeft: "143px",
+      marginTop: "50px",
+      color: "white",
+      flexDirection: "row"
+    }}>
+  {/* ...TV Shows By Language... */}
+  <div>
+    <p>TV Shows By Language</p>
+    <div>
+      <a href="/">Hindi TV Shows</a>
+    </div>
+    <div>
+      {" "}
+      <a href="/">Marathi TV Shows</a>
+    </div>
+    <div>
+      <a href="/">Tamil TV Shows</a>
+    </div>
+    <div>
+      <a href="/">Telugu TV Shows</a>
+    </div>
+    <div>
+      <a href="/">Malayalam TV Shows</a>
+    </div>
+  </div>
+  {/* ...TV Shows By Genes... */}
+  <div>
+    <p>TV Shows By Genes</p>
+    <div>
+      <a href="/">Drama TV Shows</a>
+    </div>
+    <div>
+      {" "}
+      <a href="/">Romantic</a>
+    </div>
+    <div>
+      <a href="/">Family TV Shows</a>
+    </div>
+    <div>
+      <a href="/">Comedy Shows</a>
+    </div>
+    <div>
+      <a href="/">Reality TV Shows</a>
+    </div>
+  </div>
+  {/* ...TV Shows By Channel... */}
+  <div>
+    <p>TV Shows By Channel</p>
+    <div>
+      <a href="/">Zee TV Shows</a>
+    </div>
+    <div>
+      {" "}
+      <a href="/">&TV Shows</a>
+    </div>
+    <div>
+      <a href="/">Zee Tamil Shows</a>
+    </div>
+    <div>
+      <a href="/">Zee Marathi Shows</a>
+    </div>
+    <div>
+      <a href="/">Zee Bangla Shows</a>
+    </div>
+  </div>
+  {/* ...Must Watch Hindi TV Shows... */}
+  <div>
+    <p>Must Watch Hindi TV Shows</p>
+    <div>
+      <a href="/">Jodha Akbar</a>
+    </div>
+    <div>
+      {" "}
+      <a href="/">Yeh Teri Galiyan</a>
+    </div>
+    <div>
+      <a href="/">Apna Time Bhi Ayega</a>
+    </div>
+    <div>
+      <a href="/">Pavitra Rishta</a>
+    </div>
+    <div>
+      <a href="/">Teri Meri Ikk Jindri</a>
+    </div>
+  </div>
+  {/* ...Must Watch Marathi TV Shows... */}
+  <div>
+    <p>Must Watch Marathi TV Shows</p>
+    <div>
+      <a href="/">Mazhi Tuzhi</a>
+    </div>
+    <div>
+      {" "}
+      <a href="/">Yeu Kashi Tashi</a>
+    </div>
+    <div>
+      <a href="/">Lagira Zhala Jee</a>
+    </div>
+    <div>
+      <a href="/">Man Udu Udu Zhala</a>
+    </div>
+    <div>
+      <a href="/">Phulpakhru</a>
+    </div>
+  </div>
+  {/* ...Latest TV Shows... */}
+  <div>
+    <p>Latest TV Shows</p>
+    <div>
+      <a href="/">Riston ka Manjha</a>
+    </div>
+    <div>
+      {" "}
+      <a href="/">Meet</a>
+    </div>
+    <div>
+      <a href="/">Bhagya Lakhshmi</a>
+    </div>
+    <div>
+      <a href="/">Comedy Shows</a>
+    </div>
+    <div>
+      <a href="/">Ghar Ek Mandir</a>
+    </div>
+  </div>
+</div>
 
-      {/* 3rd box for App & SocialMedia  */}
+
       {/* 1rd box for App & SocialMedia  */}
       {/* <hr /> */}
       <div style={{
@@ -317,6 +232,7 @@ const Footer2 = () => {
           display: "flex",
           justifyContent: "space-around",
           padding: "10px",
+          color: "grey",
           textAlign: "start"
         }}
       >
@@ -326,16 +242,6 @@ const Footer2 = () => {
           <div>
             <a
               href="/"
-              // _hover={{
-              //   fontWeight: "bold",
-              //   color: "rgba(219, 166, 247, 0.816)"
-              // }}
-              style={{
-                fontSize: "14px",
-                color: "grey",
-                textAlign: "left",
-                alignItems: "flex-start"
-              }}
             >
               Kumkum Bhagya
             </a>

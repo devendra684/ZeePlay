@@ -9,6 +9,7 @@ import News from "./News";
 import Payment from './Payment'
 import Buy from './Buy'
 import Register from './Register'
+import Player from './Player'
 
 export default function AllRoutes() {
   return (
@@ -22,6 +23,7 @@ export default function AllRoutes() {
         <Route path="/register" element={<Register />}></Route>
         <Route path="/Buy" element={<Buy />}></Route>
         <Route path="/payment" element={<Payment />}></Route>
+        <Route path="/Player" element={<Player />}></Route>
     </Routes>
   )
 }

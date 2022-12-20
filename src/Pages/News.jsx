@@ -2,7 +2,7 @@ import { Box, Grid, GridItem, Text } from "@chakra-ui/react";
 import React from "react";
 import Navbar from "../Components/Navbar";
 import Footer from "./Footer";
-const music = [
+const Video = [
   {
     video: "https://www.youtube.com/embed/P8qF8C8PeZ8",
     title: "Mett | Zee TV Premiere",
@@ -86,7 +86,7 @@ const News = () => {
       Zee Play Premiere : News 
       </Box>
       <Grid gridTemplateColumns="repeat(3,1fr)" width="90%" margin="auto" gap="20px">
-        {music.map((el) => (
+        {Video.map((el) => (
           <GridItem margin="auto">
             <iframe
               src={el.video}
