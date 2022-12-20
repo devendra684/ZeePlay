@@ -133,7 +133,7 @@ const WebSeries = () => {
               // bg="#0F0617"
               // _hover={{ background: "#0F0617", textDecoration: "underline" }}
             >
-              <BreadcrumbLink href="/player">Watch Full</BreadcrumbLink>
+              <BreadcrumbLink href="/player">Watch</BreadcrumbLink>
             </BreadcrumbItem>
           </Breadcrumb>
               </Button>
