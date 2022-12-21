@@ -1,9 +1,9 @@
 # <span style="color:red">[Zee Play](https://www.zeeplay.vercel.app/) Clone of [Zee5](https://www.zee5.com/) Website </span>
 
-# <span style="color:red"> Welcome Here!</span>
+# <span style="color:red"> Welcome to Zee Play</span>
 
-Hello & Welcome to Zee Play,<br>
-It is a Subscription-based OTT (over-the-top) platform to access Entertainment content. This is a Individual Project build in 5 days in Construct Week at Masai School.
+
+Zee Play (Clone of Zee5 Website) is a Subscription-based OTT (over-the-top) platform to access Entertainment content. This is a Individual Project build in 5 days in Construct Week at Masai School.
 
 # <span style="color:red"> Tech Stack Used: </span>
 
