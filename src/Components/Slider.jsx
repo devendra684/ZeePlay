@@ -79,9 +79,6 @@ export default function CaptionCarousel() {
           'https://akamaividz2.zee5.com/image/upload/w_899,h_506,c_scale,f_webp,q_auto:eco/resources/0-6-127/app_cover/1440x810c832d8e7eab44467a279d4b576743600.jpg',
       },
 
-
-
-    
   ];
 
   return (

@@ -1,6 +1,8 @@
 # ZeePlay - Zee5 Clone
 
-A subscription-based OTT (Over-The-Top) platform that provides access to entertainment content across multiple languages. This project is a clone of the popular Zee5 streaming platform.
+A subscription-based OTT (Over-The-Top) platform that provides access to entertainment content across multiple languages. This project is a clone of the popular [Zee5](https://www.zee5.com/) streaming platform.
+
+🚀 **Live Demo**: [ZeePlay](https://www.zeeplay.vercel.app/)
 
 ## 🎬 About
 
@@ -61,36 +63,25 @@ ZeePlay/
 └── README.md
 ```
 
-## 🔧 Available Scripts
+### Snapshots of Zee Play project:- 
 
-In the project directory, you can run:
+- ## <span style="color:blue"> Home Page: Header & Carousel </span>
 
-- `npm start` - Runs the app in development mode
-- `npm test` - Launches the test runner
-- `npm run build` - Builds the app for production
+![Screenshot (1)](https://user-images.githubusercontent.com/100137935/208622696-a6ae0a70-d2be-493e-995a-ea621fbb46d9.png)
 
-## 🚦 Usage
 
-1. **Browse Content**: Explore different categories of entertainment content
-2. **Search**: Use the search functionality to find specific content
-3. **Subscribe**: Access premium content through subscription
-4. **Watch**: Enjoy seamless video streaming experience
-5. **Multi-language**: Switch between different language content
+- ## <span style="color:blue"> Home Page: Middle & Bottom Secton </span>
 
-## 🤝 Contributing
+![Screenshot (2)](https://user-images.githubusercontent.com/100137935/208623672-f4f8a72b-0ae0-436f-aed8-b215b305494e.jpeg)
 
-This is an individual project, but suggestions and feedback are welcome:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+<hr>
 
 ## 👨‍💻 Author
 
 **Devendra Singh**
 - GitHub: [@devendra684](https://github.com/devendra684)
 - Portfolio: [devendra684.github.io](https://devendra684.github.io/)
+
+---
 
 ⭐ Star this repository if you found it helpful!

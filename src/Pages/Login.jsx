@@ -58,7 +58,7 @@ export default function Login() {
           password: ""
         });
         toast({
-          title: "Welcome Back Buddy !",
+          title: "Welcome to Zee Play !",
           description: "Enjoy Your Favourite Content",
           status: "success",
           duration: 4000,
